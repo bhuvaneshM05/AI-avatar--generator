@@ -1,4 +1,4 @@
-﻿# Model registry -- all models pinned to exact HF revision hashes.
+# Model registry -- all models pinned to exact HF revision hashes.
 # This file is the SINGLE SOURCE OF TRUTH for model versions.
 # Update ONLY with an explicit version bump commit + full test run.
 # Never use 'latest' or 'main' -- always pin to a commit SHA.
@@ -12,7 +12,7 @@ models:
     type: "sdxl"
     # FP16-fixed VAE avoids NaN in fp16 mode; mandatory for stable SDXL output
     vae_repo: "madebyollin/sdxl-vae-fp16-fix"
-    vae_revision: "4df413ca49b2d5c82a85cfde3c7600551bbfc5a7"
+    vae_revision: "207b116dae70ace3637169f1ddd2434b91b3a8cd"
     recommended_steps: 20
     recommended_guidance: 7.5
     max_resolution: 1024
