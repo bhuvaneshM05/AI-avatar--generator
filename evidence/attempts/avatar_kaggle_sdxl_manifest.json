@@ -1,0 +1,63 @@
+{
+  "all_images": [
+    "E:\\project\\ai avatar\\kaggle_output\\avatar_kaggle-d_424242.png"
+  ],
+  "created_at": "2026-09-11T14:29:12.486457+00:00",
+  "image_hash": "26aadab23793797707681020db180d6997f5b16e744872a34c975b223f7f7094",
+  "job_id": "ff5320ec-f318-4f4a-9772-586b8e1589a7",
+  "manifest_version": "1.0",
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "output_path": "E:\\project\\ai avatar\\kaggle_output\\avatar_kaggle-d_424242.png",
+  "prompt": "a feminine young adult person, Fitzpatrick III (warm olive) skin tone, shoulder-length wavy chestnut brown hair, wearing navy tailored business blazer, crisp white shirt, confident front-facing portrait pose, modern sunlit creative studio, soft warm bokeh, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "provenance": {
+    "generated_at": "2026-09-11T14:29:12.485468+00:00",
+    "job_id": "ff5320ec-f318-4f4a-9772-586b8e1589a7",
+    "notebook": "notebooks/inference_kaggle.ipynb",
+    "route": "kaggle"
+  },
+  "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+  "safety_result": {
+    "flags": [],
+    "passed": true,
+    "reason": "Not checked",
+    "severity": "clean"
+  },
+  "seed": 131876066,
+  "spec": {
+    "age_band": "young_adult",
+    "aspect_ratio": "1:1",
+    "attire": "navy tailored business blazer, crisp white shirt",
+    "background": "modern sunlit creative studio, soft warm bokeh",
+    "consent_id": null,
+    "hair": {
+      "color": "chestnut brown",
+      "style": "shoulder-length wavy"
+    },
+    "pose": "confident front-facing portrait",
+    "presentation": "feminine",
+    "reference_images": [],
+    "seed": 131876066,
+    "skin_tone": "Fitzpatrick III (warm olive)"
+  },
+  "synthetic_media_label": true,
+  "validation_report": {
+    "all_passed": true,
+    "failed_images": 0,
+    "fragment_present": true,
+    "image_results": [
+      {
+        "correct_dimensions": true,
+        "errors": [],
+        "hash_consistent": true,
+        "non_blank": true,
+        "passed": true,
+        "path": "kaggle_output\\avatar_kaggle-d_424242.png",
+        "readable": true
+      }
+    ],
+    "job_id": "ff5320ec-f318-4f4a-9772-586b8e1589a7",
+    "passed_images": 1,
+    "total_images": 1
+  }
+}
