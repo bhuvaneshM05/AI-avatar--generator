@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_age_band\\stub_6d005a4c.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_age_band\\stub_11da864b.png"
   ],
-  "created_at": "2026-09-11T15:47:25.876230+00:00",
+  "created_at": "2026-09-11T16:42:17.393470+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "6d005a4c-1a97-424a-ae87-7215007facdd",
+  "job_id": "11da864b-1988-478d-973c-4f7dbcb80d1c",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_age_band\\stub_6d005a4c.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_age_band\\stub_11da864b.png",
   "prompt": "a feminine senior person, Fitzpatrick III (medium olive) skin tone, shoulder-length wavy chestnut brown hair, wearing tailored charcoal blazer, neutral front-facing portrait pose, minimalist studio office with clean backdrop, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T15:47:25.851968+00:00",
-    "job_id": "6d005a4c-1a97-424a-ae87-7215007facdd",
+    "generated_at": "2026-09-11T16:42:17.368553+00:00",
+    "job_id": "11da864b-1988-478d-973c-4f7dbcb80d1c",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -54,11 +54,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\attribute_isolation\\swap_age_band\\stub_6d005a4c.png",
+        "path": "evidence\\test_matrix\\attribute_isolation\\swap_age_band\\stub_11da864b.png",
         "readable": true
       }
     ],
-    "job_id": "6d005a4c-1a97-424a-ae87-7215007facdd",
+    "job_id": "11da864b-1988-478d-973c-4f7dbcb80d1c",
     "passed_images": 0,
     "total_images": 1
   }

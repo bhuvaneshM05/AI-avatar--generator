@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_06_adult_unspecified\\stub_1a24aaef.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_06_adult_unspecified\\stub_c5357332.png"
   ],
-  "created_at": "2026-09-11T15:47:25.581809+00:00",
+  "created_at": "2026-09-11T16:42:17.118567+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "1a24aaef-6549-44ec-81ab-1c088b778881",
+  "job_id": "c5357332-0803-4de4-83b7-199812494519",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_06_adult_unspecified\\stub_1a24aaef.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_06_adult_unspecified\\stub_c5357332.png",
   "prompt": "a adult person, Fitzpatrick V (warm bronze) skin tone, tapered afro jet black hair, wearing smart casual denim jacket over crisp cream crewneck, neutral front-facing pose, coastal dusk horizon with soft pastel sky, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T15:47:25.546796+00:00",
-    "job_id": "1a24aaef-6549-44ec-81ab-1c088b778881",
+    "generated_at": "2026-09-11T16:42:17.098557+00:00",
+    "job_id": "c5357332-0803-4de4-83b7-199812494519",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -54,11 +54,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\baseline_six\\avatar_06_adult_unspecified\\stub_1a24aaef.png",
+        "path": "evidence\\test_matrix\\baseline_six\\avatar_06_adult_unspecified\\stub_c5357332.png",
         "readable": true
       }
     ],
-    "job_id": "1a24aaef-6549-44ec-81ab-1c088b778881",
+    "job_id": "c5357332-0803-4de4-83b7-199812494519",
     "passed_images": 0,
     "total_images": 1
   }

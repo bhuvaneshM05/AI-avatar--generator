@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_hair\\stub_14aeba84.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_hair\\stub_ef4e15b8.png"
   ],
-  "created_at": "2026-09-11T15:47:25.771377+00:00",
+  "created_at": "2026-09-11T16:42:17.288275+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "14aeba84-3e72-4d85-bfbc-797d692200ae",
+  "job_id": "ef4e15b8-a3db-41c5-953b-4dd8ebe99b62",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_hair\\stub_14aeba84.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_hair\\stub_ef4e15b8.png",
   "prompt": "a feminine young adult person, Fitzpatrick III (medium olive) skin tone, short cropped buzzcut platinum blonde hair, wearing tailored charcoal blazer, neutral front-facing portrait pose, minimalist studio office with clean backdrop, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T15:47:25.751903+00:00",
-    "job_id": "14aeba84-3e72-4d85-bfbc-797d692200ae",
+    "generated_at": "2026-09-11T16:42:17.269478+00:00",
+    "job_id": "ef4e15b8-a3db-41c5-953b-4dd8ebe99b62",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -54,11 +54,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\attribute_isolation\\swap_hair\\stub_14aeba84.png",
+        "path": "evidence\\test_matrix\\attribute_isolation\\swap_hair\\stub_ef4e15b8.png",
         "readable": true
       }
     ],
-    "job_id": "14aeba84-3e72-4d85-bfbc-797d692200ae",
+    "job_id": "ef4e15b8-a3db-41c5-953b-4dd8ebe99b62",
     "passed_images": 0,
     "total_images": 1
   }

@@ -1,4 +1,4 @@
-﻿# Python bytecode
+# Python bytecode
 __pycache__/
 *.pyc
 *.pyo
@@ -32,6 +32,13 @@ evidence/attempts/*.png
 evidence/attempts/*.jpg
 evidence/attempts/*.jpeg
 evidence/attempts/*.webp
+evidence/test_matrix/**/stub_*.png
+*.zip
+local_output/
+sample_output/
+test_local_run/
+kaggle_output/
+consent_store/
 
 # Secrets and credentials
 *.pem

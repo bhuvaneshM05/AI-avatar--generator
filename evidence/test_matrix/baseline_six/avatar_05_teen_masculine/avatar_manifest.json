@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_05_teen_masculine\\stub_5369f3c0.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_05_teen_masculine\\stub_9680a6d8.png"
   ],
-  "created_at": "2026-09-11T15:47:25.500811+00:00",
+  "created_at": "2026-09-11T16:42:17.052976+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "5369f3c0-f068-40f6-b46b-5ae2a18152e6",
+  "job_id": "9680a6d8-0b7b-402b-9a8c-cc40a7734129",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_05_teen_masculine\\stub_5369f3c0.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_05_teen_masculine\\stub_9680a6d8.png",
   "prompt": "a masculine teen person, Fitzpatrick III (medium beige) skin tone, curly undercut dark chestnut hair, wearing minimalist organic cotton hoodie in olive tone, casual candid three-quarter angle pose, contemporary co-working campus courtyard, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T15:47:25.459059+00:00",
-    "job_id": "5369f3c0-f068-40f6-b46b-5ae2a18152e6",
+    "generated_at": "2026-09-11T16:42:17.026601+00:00",
+    "job_id": "9680a6d8-0b7b-402b-9a8c-cc40a7734129",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -55,11 +55,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\baseline_six\\avatar_05_teen_masculine\\stub_5369f3c0.png",
+        "path": "evidence\\test_matrix\\baseline_six\\avatar_05_teen_masculine\\stub_9680a6d8.png",
         "readable": true
       }
     ],
-    "job_id": "5369f3c0-f068-40f6-b46b-5ae2a18152e6",
+    "job_id": "9680a6d8-0b7b-402b-9a8c-cc40a7734129",
     "passed_images": 0,
     "total_images": 1
   }

@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose4_creative_1x1\\stub_97babd2a.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose4_creative_1x1\\stub_2e4e3306.png"
   ],
-  "created_at": "2026-09-11T15:47:28.354652+00:00",
+  "created_at": "2026-09-11T16:42:18.648375+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "97babd2a-2365-4b62-99c1-2f17b16da509",
+  "job_id": "2e4e3306-50fe-43e3-8262-0848eaa0fcb4",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose4_creative_1x1\\stub_97babd2a.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose4_creative_1x1\\stub_2e4e3306.png",
   "prompt": "a feminine adult person, Fitzpatrick IV (warm bronze) skin tone, sleek layered shoulder-length lob espresso brown hair, wearing modern bespoke indigo blazer over silk blouse, candid profile looking off-camera pose, industrial artist loft with colorful canvas paintings, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T15:47:28.309959+00:00",
-    "job_id": "97babd2a-2365-4b62-99c1-2f17b16da509",
+    "generated_at": "2026-09-11T16:42:18.622192+00:00",
+    "job_id": "2e4e3306-50fe-43e3-8262-0848eaa0fcb4",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -56,11 +56,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\consented_persona\\pose4_creative_1x1\\stub_97babd2a.png",
+        "path": "evidence\\test_matrix\\consented_persona\\pose4_creative_1x1\\stub_2e4e3306.png",
         "readable": true
       }
     ],
-    "job_id": "97babd2a-2365-4b62-99c1-2f17b16da509",
+    "job_id": "2e4e3306-50fe-43e3-8262-0848eaa0fcb4",
     "passed_images": 0,
     "total_images": 1
   }

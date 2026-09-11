@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose2_outdoor_3x4\\stub_904a9781.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose2_outdoor_3x4\\stub_aeaa95bc.png"
   ],
-  "created_at": "2026-09-11T15:47:28.187793+00:00",
+  "created_at": "2026-09-11T16:42:18.542243+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "904a9781-f510-4321-862d-cb3ab1a1bd6b",
+  "job_id": "aeaa95bc-e8c9-47f0-8cfe-607d09a66cc8",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose2_outdoor_3x4\\stub_904a9781.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose2_outdoor_3x4\\stub_aeaa95bc.png",
   "prompt": "a feminine adult person, Fitzpatrick IV (warm bronze) skin tone, sleek layered shoulder-length lob espresso brown hair, wearing modern bespoke indigo blazer over silk blouse, seated casually leaning forward pose, sunlit city park pathway with autumnal trees, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T15:47:28.150164+00:00",
-    "job_id": "904a9781-f510-4321-862d-cb3ab1a1bd6b",
+    "generated_at": "2026-09-11T16:42:18.513330+00:00",
+    "job_id": "aeaa95bc-e8c9-47f0-8cfe-607d09a66cc8",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -57,11 +57,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\consented_persona\\pose2_outdoor_3x4\\stub_904a9781.png",
+        "path": "evidence\\test_matrix\\consented_persona\\pose2_outdoor_3x4\\stub_aeaa95bc.png",
         "readable": true
       }
     ],
-    "job_id": "904a9781-f510-4321-862d-cb3ab1a1bd6b",
+    "job_id": "aeaa95bc-e8c9-47f0-8cfe-607d09a66cc8",
     "passed_images": 0,
     "total_images": 1
   }

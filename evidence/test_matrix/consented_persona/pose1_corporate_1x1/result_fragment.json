@@ -1,14 +1,14 @@
 {
   "images": [
-    "evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_bd06a1a1.png"
+    "evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_91d821df.png"
   ],
   "seed": 5000,
   "model_id": "stable-diffusion-xl-base-1.0",
   "revision": "stub-no-revision",
   "provenance_route": "local-cpu-stub",
-  "generated_at": "2026-09-11T15:47:27.981831+00:00",
+  "generated_at": "2026-09-11T16:42:18.365548+00:00",
   "image_hashes": {
-    "stub_bd06a1a1.png": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2"
+    "stub_91d821df.png": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2"
   },
   "WARNING": "STUB OUTPUT -- NOT A FINAL GRADED AVATAR"
 }

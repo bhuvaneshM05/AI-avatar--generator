@@ -1,19 +1,19 @@
 {
   "consent_id": "CONSENT-2026-EXC-001",
   "subject_pseudonym": "PERSONA_ALPHA",
-  "consented_at": "2026-09-11T15:47:27.943184Z",
+  "consented_at": "2026-09-11T16:42:18.321944Z",
   "revoked_at": null,
   "artifact_paths": [
-    "evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_bd06a1a1.png",
-    "evidence\\test_matrix\\consented_persona\\pose1_corporate_3x4\\stub_94a0fb17.png",
-    "evidence\\test_matrix\\consented_persona\\pose2_outdoor_1x1\\stub_7520c9fd.png",
-    "evidence\\test_matrix\\consented_persona\\pose2_outdoor_3x4\\stub_904a9781.png",
-    "evidence\\test_matrix\\consented_persona\\pose3_studio_1x1\\stub_38e0c73e.png",
-    "evidence\\test_matrix\\consented_persona\\pose3_studio_3x4\\stub_644ef170.png",
-    "evidence\\test_matrix\\consented_persona\\pose4_creative_1x1\\stub_97babd2a.png",
-    "evidence\\test_matrix\\consented_persona\\pose4_creative_3x4\\stub_b02ef6ce.png",
-    "evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_7325d96d.png",
-    "evidence\\test_matrix\\consented_persona\\pose5_academic_3x4\\stub_a78d7f5e.png"
+    "evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_91d821df.png",
+    "evidence\\test_matrix\\consented_persona\\pose1_corporate_3x4\\stub_e40e5fc7.png",
+    "evidence\\test_matrix\\consented_persona\\pose2_outdoor_1x1\\stub_bde65968.png",
+    "evidence\\test_matrix\\consented_persona\\pose2_outdoor_3x4\\stub_aeaa95bc.png",
+    "evidence\\test_matrix\\consented_persona\\pose3_studio_1x1\\stub_3245c4fa.png",
+    "evidence\\test_matrix\\consented_persona\\pose3_studio_3x4\\stub_bcd5ab6a.png",
+    "evidence\\test_matrix\\consented_persona\\pose4_creative_1x1\\stub_2e4e3306.png",
+    "evidence\\test_matrix\\consented_persona\\pose4_creative_3x4\\stub_a58ebc99.png",
+    "evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_54af8609.png",
+    "evidence\\test_matrix\\consented_persona\\pose5_academic_3x4\\stub_7c81ab51.png"
   ],
   "notes": "Authorized for PS02 evaluation 5 poses x 2 aspect ratios"
 }
