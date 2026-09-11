@@ -1,24 +1,24 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\ambiguous\\stub_d268e420.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\ambiguous\\stub_235bec9e.png"
   ],
-  "created_at": "2026-09-11T06:29:42.091380+00:00",
+  "created_at": "2026-09-11T15:47:27.847809+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "d268e420-d195-4ab0-936d-2a24d28380f8",
+  "job_id": "235bec9e-b747-4fb7-9fa4-90420f2fb126",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\ambiguous\\stub_d268e420.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\ambiguous\\stub_235bec9e.png",
   "prompt": "a adult person, md skin tone, straight dark hair, wearing heavy winter wool parka coat, neutral front-facing pose, sunny tropical beach with palm trees and ocean waves, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T06:29:42.089885+00:00",
-    "job_id": "d268e420-d195-4ab0-936d-2a24d28380f8",
+    "generated_at": "2026-09-11T15:47:27.845812+00:00",
+    "job_id": "235bec9e-b747-4fb7-9fa4-90420f2fb126",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "kaggle"
   },
   "revision": "462165984030d82259a11f4367a4eed129e94a7b",
   "safety_result": {
-    "checked_at": "2026-09-11T06:29:42.049581Z",
+    "checked_at": "2026-09-11T15:47:27.792038Z",
     "checked_text": "a adult person, md skin tone, straight dark hair, wearing heavy winter wool parka coat, neutral front-facing pose, sunny tropical beach with palm trees and ocean waves, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting | spec_fields:['age_band', 'presentation', 'skin_tone', 'hair', 'attire', 'background', 'pose', 'aspect_ratio', 'seed', 'reference_images', 'consent_id']",
     "flags": [
       "under_specified_skin_tone",
@@ -59,11 +59,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\ambiguous\\stub_d268e420.png",
+        "path": "evidence\\test_matrix\\ambiguous\\stub_235bec9e.png",
         "readable": true
       }
     ],
-    "job_id": "d268e420-d195-4ab0-936d-2a24d28380f8",
+    "job_id": "235bec9e-b747-4fb7-9fa4-90420f2fb126",
     "passed_images": 0,
     "total_images": 1
   }

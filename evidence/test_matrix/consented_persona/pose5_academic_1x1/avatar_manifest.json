@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_b6a64161.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_7325d96d.png"
   ],
-  "created_at": "2026-09-11T06:29:42.703192+00:00",
+  "created_at": "2026-09-11T15:47:28.475707+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "b6a64161-bf9c-4018-becb-0b6a51a24863",
+  "job_id": "7325d96d-00d9-4104-8fc8-969b8845e14b",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_b6a64161.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_7325d96d.png",
   "prompt": "a feminine adult person, Fitzpatrick IV (warm bronze) skin tone, sleek layered shoulder-length lob espresso brown hair, wearing modern bespoke indigo blazer over silk blouse, hand resting under chin in thought pose, wood-paneled historical university lecture hall, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T06:29:42.674400+00:00",
-    "job_id": "b6a64161-bf9c-4018-becb-0b6a51a24863",
+    "generated_at": "2026-09-11T15:47:28.435406+00:00",
+    "job_id": "7325d96d-00d9-4104-8fc8-969b8845e14b",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -56,11 +56,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_b6a64161.png",
+        "path": "evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_7325d96d.png",
         "readable": true
       }
     ],
-    "job_id": "b6a64161-bf9c-4018-becb-0b6a51a24863",
+    "job_id": "7325d96d-00d9-4104-8fc8-969b8845e14b",
     "passed_images": 0,
     "total_images": 1
   }

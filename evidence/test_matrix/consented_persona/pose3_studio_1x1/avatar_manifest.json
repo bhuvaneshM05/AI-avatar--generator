@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose3_studio_1x1\\stub_ea405158.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose3_studio_1x1\\stub_38e0c73e.png"
   ],
-  "created_at": "2026-09-11T06:29:42.496417+00:00",
+  "created_at": "2026-09-11T15:47:28.234325+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "ea405158-1113-4272-91e5-302b32e67105",
+  "job_id": "38e0c73e-6039-43a0-873f-3b1d6ffc085a",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose3_studio_1x1\\stub_ea405158.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose3_studio_1x1\\stub_38e0c73e.png",
   "prompt": "a feminine adult person, Fitzpatrick IV (warm bronze) skin tone, sleek layered shoulder-length lob espresso brown hair, wearing modern bespoke indigo blazer over silk blouse, three-quarter profile with chin tilted up pose, sleek studio charcoal seamless background, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T06:29:42.460954+00:00",
-    "job_id": "ea405158-1113-4272-91e5-302b32e67105",
+    "generated_at": "2026-09-11T15:47:28.200434+00:00",
+    "job_id": "38e0c73e-6039-43a0-873f-3b1d6ffc085a",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -56,11 +56,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\consented_persona\\pose3_studio_1x1\\stub_ea405158.png",
+        "path": "evidence\\test_matrix\\consented_persona\\pose3_studio_1x1\\stub_38e0c73e.png",
         "readable": true
       }
     ],
-    "job_id": "ea405158-1113-4272-91e5-302b32e67105",
+    "job_id": "38e0c73e-6039-43a0-873f-3b1d6ffc085a",
     "passed_images": 0,
     "total_images": 1
   }

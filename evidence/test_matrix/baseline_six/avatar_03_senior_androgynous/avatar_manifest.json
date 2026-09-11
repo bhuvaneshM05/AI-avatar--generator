@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_03_senior_androgynous\\stub_9811a521.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_03_senior_androgynous\\stub_05fb85e7.png"
   ],
-  "created_at": "2026-09-11T06:29:41.072622+00:00",
+  "created_at": "2026-09-11T15:47:25.334307+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "9811a521-484b-4814-8e37-f2cc7ad15e2e",
+  "job_id": "05fb85e7-4fff-450f-bf6b-7d1689cbb702",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_03_senior_androgynous\\stub_9811a521.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_03_senior_androgynous\\stub_05fb85e7.png",
   "prompt": "a androgynous senior person, Fitzpatrick II (light) skin tone, neat silver crop silver grey hair, wearing structured linen tunic with modern silver lapel pin, gentle side angle with relaxed expression pose, sunlit botanical conservatory with soft green bokeh, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T06:29:41.049346+00:00",
-    "job_id": "9811a521-484b-4814-8e37-f2cc7ad15e2e",
+    "generated_at": "2026-09-11T15:47:25.301940+00:00",
+    "job_id": "05fb85e7-4fff-450f-bf6b-7d1689cbb702",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -55,11 +55,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\baseline_six\\avatar_03_senior_androgynous\\stub_9811a521.png",
+        "path": "evidence\\test_matrix\\baseline_six\\avatar_03_senior_androgynous\\stub_05fb85e7.png",
         "readable": true
       }
     ],
-    "job_id": "9811a521-484b-4814-8e37-f2cc7ad15e2e",
+    "job_id": "05fb85e7-4fff-450f-bf6b-7d1689cbb702",
     "passed_images": 0,
     "total_images": 1
   }

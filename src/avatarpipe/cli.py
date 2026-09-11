@@ -86,6 +86,7 @@ def new_job(
     spec: Path = typer.Option(..., "--spec", help="Path to the avatar spec YAML file"),
     jobs_dir: Path = typer.Option(Path("jobs"), "--jobs-dir", help="Directory for job bundles"),
     config_dir: Optional[Path] = typer.Option(None, "--config-dir", help="Path to config/ directory"),
+    model: Optional[str] = typer.Option(None, "--model", help="Model key override ('primary' or 'fallback')"),
     skip_safety: bool = typer.Option(False, "--skip-safety", help="Skip safety pre-check (testing only)"),
 ) -> None:
     """Validate a spec YAML, run safety pre-check, and create a job bundle."""
@@ -109,7 +110,7 @@ def new_job(
 
     # 3. Build job bundle
     try:
-        job = build_job(avatar_spec, resolved_config)
+        job = build_job(avatar_spec, resolved_config, model_key=model)
     except Exception as exc:
         _exit_error(f"Failed to build job: {exc}")
 

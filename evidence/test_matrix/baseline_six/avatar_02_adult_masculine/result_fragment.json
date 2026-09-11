@@ -1,14 +1,14 @@
 {
   "images": [
-    "evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_2e9d8f5f.png"
+    "evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_66e4659b.png"
   ],
   "seed": 1002,
   "model_id": "stable-diffusion-xl-base-1.0",
   "revision": "stub-no-revision",
   "provenance_route": "local-cpu-stub",
-  "generated_at": "2026-09-11T06:29:40.994596+00:00",
+  "generated_at": "2026-09-11T15:47:25.195013+00:00",
   "image_hashes": {
-    "stub_2e9d8f5f.png": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2"
+    "stub_66e4659b.png": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2"
   },
   "WARNING": "STUB OUTPUT -- NOT A FINAL GRADED AVATAR"
 }

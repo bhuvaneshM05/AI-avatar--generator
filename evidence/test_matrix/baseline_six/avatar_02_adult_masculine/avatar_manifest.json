@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_2e9d8f5f.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_66e4659b.png"
   ],
-  "created_at": "2026-09-11T06:29:41.019173+00:00",
+  "created_at": "2026-09-11T15:47:25.232764+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "2e9d8f5f-00e8-4342-ba31-bc2fd0c4e323",
+  "job_id": "66e4659b-ded5-4469-a959-94d251ce239f",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_2e9d8f5f.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_66e4659b.png",
   "prompt": "a masculine adult person, Fitzpatrick IV (olive) skin tone, short fade with textured top black hair, wearing navy merino wool turtleneck, confident front-facing pose pose, urban loft library with warm wooden bookshelves, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T06:29:40.994596+00:00",
-    "job_id": "2e9d8f5f-00e8-4342-ba31-bc2fd0c4e323",
+    "generated_at": "2026-09-11T15:47:25.195013+00:00",
+    "job_id": "66e4659b-ded5-4469-a959-94d251ce239f",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -54,11 +54,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_2e9d8f5f.png",
+        "path": "evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_66e4659b.png",
         "readable": true
       }
     ],
-    "job_id": "2e9d8f5f-00e8-4342-ba31-bc2fd0c4e323",
+    "job_id": "66e4659b-ded5-4469-a959-94d251ce239f",
     "passed_images": 0,
     "total_images": 1
   }

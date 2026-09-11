@@ -1,6 +1,6 @@
 {
-  "job_id": "1566332c-2c9f-4384-9a50-85e93eaf88bf",
-  "created_at": "2026-09-11T06:29:41.097138+00:00",
+  "job_id": "8b4990f4-3a5a-4f5c-aaa9-7c4745767e9f",
+  "created_at": "2026-09-11T15:47:25.373388+00:00",
   "spec": {
     "age_band": "adult",
     "presentation": "feminine",
@@ -23,7 +23,7 @@
     "revision": "462165984030d82259a11f4367a4eed129e94a7b",
     "type": "sdxl",
     "vae_repo": "madebyollin/sdxl-vae-fp16-fix",
-    "vae_revision": "4df413ca49b2d5c82a85cfde3c7600551bbfc5a7",
+    "vae_revision": "207b116dae70ace3637169f1ddd2434b91b3a8cd",
     "recommended_steps": 20,
     "recommended_guidance": 7.5,
     "max_resolution": 1024,

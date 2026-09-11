@@ -1,4 +1,4 @@
-﻿"""job_builder -- translates an AvatarSpec into a portable job bundle.
+"""job_builder -- translates an AvatarSpec into a portable job bundle.
 
 A job bundle is a self-contained JSON file that includes:
   - The full validated spec (so the GPU notebook never needs to re-validate)
@@ -56,13 +56,14 @@ def _load_yaml(path: Path) -> dict:
         return yaml.safe_load(fh)
 
 
-def build_job(spec: AvatarSpec, config_path: Path) -> dict[str, Any]:
+def build_job(spec: AvatarSpec, config_path: Path, model_key: str | None = None) -> dict[str, Any]:
     """Build a complete job bundle dict from a validated AvatarSpec.
 
     Args:
         spec:        A fully-validated AvatarSpec instance.
         config_path: Path to the directory containing default_job_config.yaml
                      and model_registry.yaml (typically project root / config/).
+        model_key:   Optional model key override from model_registry.yaml (e.g. 'primary', 'fallback').
 
     Returns:
         A job bundle dict ready to be serialised to JSON via save_job().
@@ -72,13 +73,13 @@ def build_job(spec: AvatarSpec, config_path: Path) -> dict[str, Any]:
     registry = _load_yaml(config_path / "model_registry.yaml")
 
     # -- Resolve model ---------------------------------------------------
-    model_key = job_cfg["defaults"]["model"]  # e.g. "primary"
-    if model_key not in registry["models"]:
+    resolved_model_key = model_key or job_cfg["defaults"]["model"]  # e.g. "primary" or "fallback"
+    if resolved_model_key not in registry["models"]:
         raise KeyError(
-            f"Model key '{model_key}' not found in model_registry.yaml. "
+            f"Model key '{resolved_model_key}' not found in model_registry.yaml. "
             f"Available keys: {list(registry['models'].keys())}"
         )
-    model_meta = registry["models"][model_key]
+    model_meta = registry["models"][resolved_model_key]
 
     # -- Build inference params ------------------------------------------
     inference_params = {

@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_66bd5552.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_bd06a1a1.png"
   ],
-  "created_at": "2026-09-11T06:29:42.283663+00:00",
+  "created_at": "2026-09-11T15:47:28.007358+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "66bd5552-2a5d-4f47-aa3a-0b895a5d7098",
+  "job_id": "bd06a1a1-f20c-421d-b78d-7e2b0d634280",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_66bd5552.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_bd06a1a1.png",
   "prompt": "a feminine adult person, Fitzpatrick IV (warm bronze) skin tone, sleek layered shoulder-length lob espresso brown hair, wearing modern bespoke indigo blazer over silk blouse, standing upright arms crossed pose, corporate executive boardroom with panoramic windows, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T06:29:42.244660+00:00",
-    "job_id": "66bd5552-2a5d-4f47-aa3a-0b895a5d7098",
+    "generated_at": "2026-09-11T15:47:27.981831+00:00",
+    "job_id": "bd06a1a1-f20c-421d-b78d-7e2b0d634280",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -56,11 +56,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_66bd5552.png",
+        "path": "evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_bd06a1a1.png",
         "readable": true
       }
     ],
-    "job_id": "66bd5552-2a5d-4f47-aa3a-0b895a5d7098",
+    "job_id": "bd06a1a1-f20c-421d-b78d-7e2b0d634280",
     "passed_images": 0,
     "total_images": 1
   }

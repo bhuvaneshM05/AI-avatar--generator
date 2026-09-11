@@ -1,18 +1,18 @@
 {
   "all_images": [
-    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_01_young_adult_feminine\\stub_f28bf58c.png"
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_01_young_adult_feminine\\stub_95a7ccb9.png"
   ],
-  "created_at": "2026-09-11T06:29:40.965295+00:00",
+  "created_at": "2026-09-11T15:47:25.140894+00:00",
   "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
-  "job_id": "f28bf58c-e696-4a3b-9f3c-1bc757d403d9",
+  "job_id": "95a7ccb9-88e3-479a-9579-42dac70d9414",
   "manifest_version": "1.0",
   "model_id": "stable-diffusion-xl-base-1.0",
   "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
-  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_01_young_adult_feminine\\stub_f28bf58c.png",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_01_young_adult_feminine\\stub_95a7ccb9.png",
   "prompt": "a feminine young adult person, Fitzpatrick I (very fair) skin tone, shoulder-length straight auburn hair, wearing tailored charcoal blazer over silk blouse, three-quarter portrait looking at camera pose, minimalist architectural studio with natural light, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
   "provenance": {
-    "generated_at": "2026-09-11T06:29:40.784547+00:00",
-    "job_id": "f28bf58c-e696-4a3b-9f3c-1bc757d403d9",
+    "generated_at": "2026-09-11T15:47:24.201432+00:00",
+    "job_id": "95a7ccb9-88e3-479a-9579-42dac70d9414",
     "notebook": "notebooks/inference_kaggle.ipynb",
     "route": "local-cpu-stub"
   },
@@ -54,11 +54,11 @@
         "hash_consistent": true,
         "non_blank": false,
         "passed": false,
-        "path": "evidence\\test_matrix\\baseline_six\\avatar_01_young_adult_feminine\\stub_f28bf58c.png",
+        "path": "evidence\\test_matrix\\baseline_six\\avatar_01_young_adult_feminine\\stub_95a7ccb9.png",
         "readable": true
       }
     ],
-    "job_id": "f28bf58c-e696-4a3b-9f3c-1bc757d403d9",
+    "job_id": "95a7ccb9-88e3-479a-9579-42dac70d9414",
     "passed_images": 0,
     "total_images": 1
   }
