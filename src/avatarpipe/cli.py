@@ -1,4 +1,4 @@
-﻿"""avatarpipe CLI -- Typer-based command-line interface.
+"""avatarpipe CLI -- Typer-based command-line interface.
 
 Entry point: `avatarpipe` (registered in pyproject.toml [project.scripts])
 
@@ -167,6 +167,39 @@ def prepare_notebook(
         title="prepare-notebook",
         border_style="blue",
     ))
+
+
+@app.command("run-local")
+def run_local(
+    job: Path = typer.Option(..., "--job", help="Path to the job bundle JSON"),
+    output_dir: Path = typer.Option(Path("local_output"), "--output-dir", help="Directory to store outputs"),
+    auto_ingest: bool = typer.Option(True, "--auto-ingest/--no-auto-ingest", help="Automatically validate and write manifest"),
+) -> None:
+    """Run local CPU stub inference (instant plumbing test without GPU)."""
+    from avatarpipe.job_builder import load_job
+    from avatarpipe.inference_adapter import LocalCPUStubAdapter
+
+    try:
+        bundle = load_job(job)
+    except Exception as exc:
+        _exit_error(f"Failed to load job: {exc}")
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    adapter = LocalCPUStubAdapter(width=512, height=512)
+
+    with console.status("[bold green]Executing local CPU stub inference..."):
+        fragment = adapter.run(bundle, output_dir)
+
+    console.print(f"[green]OK[/green] Generated local stub artifact: [cyan]{fragment['images'][0]}[/cyan]")
+    console.print(f"[yellow]Notice:[/yellow] Provenance route is [bold]{fragment['provenance_route']}[/bold] (CPU test mode).")
+
+    if auto_ingest:
+        image_files = [Path(p) for p in fragment["images"]]
+        from avatarpipe.output_validator import validate_outputs
+        from avatarpipe.manifest import write_manifest
+        report = validate_outputs(bundle, image_files, output_dir)
+        manifest_path = write_manifest(bundle, image_files, output_dir, validation_report=report, result_fragment=fragment)
+        console.print(f"[green]OK[/green] Manifest written: [cyan]{manifest_path}[/cyan]")
 
 
 @app.command("ingest")
