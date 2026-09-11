@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-11T06:29:42.049581Z",
+  "checked_text": "a adult person, md skin tone, straight dark hair, wearing heavy winter wool parka coat, neutral front-facing pose, sunny tropical beach with palm trees and ocean waves, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting | spec_fields:['age_band', 'presentation', 'skin_tone', 'hair', 'attire', 'background', 'pose', 'aspect_ratio', 'seed', 'reference_images', 'consent_id']",
+  "flags": [
+    "under_specified_skin_tone",
+    "contradictory_attire_background"
+  ],
+  "passed": true,
+  "reason": "Field 'skin_tone' is very short (2 chars); may produce ambiguous output; Attire and background may be climatically contradictory; No issues detected",
+  "severity": "flag"
+}

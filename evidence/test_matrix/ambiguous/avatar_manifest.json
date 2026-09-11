@@ -1,0 +1,70 @@
+{
+  "all_images": [
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\ambiguous\\stub_d268e420.png"
+  ],
+  "created_at": "2026-09-11T06:29:42.091380+00:00",
+  "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
+  "job_id": "d268e420-d195-4ab0-936d-2a24d28380f8",
+  "manifest_version": "1.0",
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\ambiguous\\stub_d268e420.png",
+  "prompt": "a adult person, md skin tone, straight dark hair, wearing heavy winter wool parka coat, neutral front-facing pose, sunny tropical beach with palm trees and ocean waves, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "provenance": {
+    "generated_at": "2026-09-11T06:29:42.089885+00:00",
+    "job_id": "d268e420-d195-4ab0-936d-2a24d28380f8",
+    "notebook": "notebooks/inference_kaggle.ipynb",
+    "route": "kaggle"
+  },
+  "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+  "safety_result": {
+    "checked_at": "2026-09-11T06:29:42.049581Z",
+    "checked_text": "a adult person, md skin tone, straight dark hair, wearing heavy winter wool parka coat, neutral front-facing pose, sunny tropical beach with palm trees and ocean waves, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting | spec_fields:['age_band', 'presentation', 'skin_tone', 'hair', 'attire', 'background', 'pose', 'aspect_ratio', 'seed', 'reference_images', 'consent_id']",
+    "flags": [
+      "under_specified_skin_tone",
+      "contradictory_attire_background"
+    ],
+    "passed": true,
+    "reason": "Field 'skin_tone' is very short (2 chars); may produce ambiguous output; Attire and background may be climatically contradictory; No issues detected",
+    "severity": "flag"
+  },
+  "seed": 3001,
+  "spec": {
+    "age_band": "adult",
+    "aspect_ratio": "1:1",
+    "attire": "heavy winter wool parka coat",
+    "background": "sunny tropical beach with palm trees and ocean waves",
+    "consent_id": null,
+    "hair": {
+      "color": "dark",
+      "style": "straight"
+    },
+    "pose": "neutral front-facing",
+    "presentation": "unspecified",
+    "reference_images": [],
+    "seed": 3001,
+    "skin_tone": "md"
+  },
+  "synthetic_media_label": true,
+  "validation_report": {
+    "all_passed": false,
+    "failed_images": 1,
+    "fragment_present": true,
+    "image_results": [
+      {
+        "correct_dimensions": true,
+        "errors": [
+          "Image appears blank (pixel std=0.0000 < 1.0)"
+        ],
+        "hash_consistent": true,
+        "non_blank": false,
+        "passed": false,
+        "path": "evidence\\test_matrix\\ambiguous\\stub_d268e420.png",
+        "readable": true
+      }
+    ],
+    "job_id": "d268e420-d195-4ab0-936d-2a24d28380f8",
+    "passed_images": 0,
+    "total_images": 1
+  }
+}

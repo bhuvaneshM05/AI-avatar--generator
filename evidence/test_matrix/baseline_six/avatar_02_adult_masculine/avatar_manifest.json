@@ -1,0 +1,65 @@
+{
+  "all_images": [
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_2e9d8f5f.png"
+  ],
+  "created_at": "2026-09-11T06:29:41.019173+00:00",
+  "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
+  "job_id": "2e9d8f5f-00e8-4342-ba31-bc2fd0c4e323",
+  "manifest_version": "1.0",
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_2e9d8f5f.png",
+  "prompt": "a masculine adult person, Fitzpatrick IV (olive) skin tone, short fade with textured top black hair, wearing navy merino wool turtleneck, confident front-facing pose pose, urban loft library with warm wooden bookshelves, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "provenance": {
+    "generated_at": "2026-09-11T06:29:40.994596+00:00",
+    "job_id": "2e9d8f5f-00e8-4342-ba31-bc2fd0c4e323",
+    "notebook": "notebooks/inference_kaggle.ipynb",
+    "route": "local-cpu-stub"
+  },
+  "revision": "stub-no-revision",
+  "safety_result": {
+    "flags": [],
+    "passed": true,
+    "reason": "Not checked",
+    "severity": "clean"
+  },
+  "seed": 1002,
+  "spec": {
+    "age_band": "adult",
+    "aspect_ratio": "1:1",
+    "attire": "navy merino wool turtleneck",
+    "background": "urban loft library with warm wooden bookshelves",
+    "consent_id": null,
+    "hair": {
+      "color": "black",
+      "style": "short fade with textured top"
+    },
+    "pose": "confident front-facing pose",
+    "presentation": "masculine",
+    "reference_images": [],
+    "seed": 1002,
+    "skin_tone": "Fitzpatrick IV (olive)"
+  },
+  "synthetic_media_label": true,
+  "validation_report": {
+    "all_passed": false,
+    "failed_images": 1,
+    "fragment_present": true,
+    "image_results": [
+      {
+        "correct_dimensions": true,
+        "errors": [
+          "Image appears blank (pixel std=0.0000 < 1.0)"
+        ],
+        "hash_consistent": true,
+        "non_blank": false,
+        "passed": false,
+        "path": "evidence\\test_matrix\\baseline_six\\avatar_02_adult_masculine\\stub_2e9d8f5f.png",
+        "readable": true
+      }
+    ],
+    "job_id": "2e9d8f5f-00e8-4342-ba31-bc2fd0c4e323",
+    "passed_images": 0,
+    "total_images": 1
+  }
+}

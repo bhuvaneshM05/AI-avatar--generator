@@ -1,0 +1,50 @@
+{
+  "job_id": "f3099a23-f5ab-4b53-85be-179398a138ee",
+  "created_at": "2026-09-11T06:29:41.397607+00:00",
+  "spec": {
+    "age_band": "young_adult",
+    "presentation": "feminine",
+    "skin_tone": "Fitzpatrick III (medium olive)",
+    "hair": {
+      "style": "short cropped buzzcut",
+      "color": "platinum blonde"
+    },
+    "attire": "tailored charcoal blazer",
+    "background": "minimalist studio office with clean backdrop",
+    "pose": "neutral front-facing portrait",
+    "aspect_ratio": "1:1",
+    "seed": 2000,
+    "reference_images": [],
+    "consent_id": null
+  },
+  "model": {
+    "name": "stable-diffusion-xl-base-1.0",
+    "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "type": "sdxl",
+    "vae_repo": "madebyollin/sdxl-vae-fp16-fix",
+    "vae_revision": "4df413ca49b2d5c82a85cfde3c7600551bbfc5a7",
+    "recommended_steps": 20,
+    "recommended_guidance": 7.5,
+    "max_resolution": 1024,
+    "license": "CreativeML Open RAIL++-M",
+    "commercial_use": false,
+    "notes": "Primary model. Requires ~6.5GB VRAM. Fits Kaggle T4 (16GB)."
+  },
+  "prompt": "a feminine young adult person, Fitzpatrick III (medium olive) skin tone, short cropped buzzcut platinum blonde hair, wearing tailored charcoal blazer, neutral front-facing portrait pose, minimalist studio office with clean backdrop, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "seed": 2000,
+  "inference_params": {
+    "steps": 20,
+    "guidance_scale": 7.5,
+    "output_format": "png",
+    "output_width": 1024,
+    "aspect_ratio": "1:1"
+  },
+  "provenance_route": "kaggle",
+  "safety_config": {
+    "on_ambiguous": "flag",
+    "on_blocked": "block",
+    "log_all_results": true
+  }
+}

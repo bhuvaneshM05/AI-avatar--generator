@@ -1,0 +1,14 @@
+{
+  "images": [
+    "evidence\\test_matrix\\consented_persona\\pose1_corporate_3x4\\stub_c3b1f571.png"
+  ],
+  "seed": 5000,
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "revision": "stub-no-revision",
+  "provenance_route": "local-cpu-stub",
+  "generated_at": "2026-09-11T06:29:42.300783+00:00",
+  "image_hashes": {
+    "stub_c3b1f571.png": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2"
+  },
+  "WARNING": "STUB OUTPUT -- NOT A FINAL GRADED AVATAR"
+}

@@ -1,0 +1,65 @@
+{
+  "all_images": [
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_hair\\stub_f3099a23.png"
+  ],
+  "created_at": "2026-09-11T06:29:41.427412+00:00",
+  "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
+  "job_id": "f3099a23-f5ab-4b53-85be-179398a138ee",
+  "manifest_version": "1.0",
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\attribute_isolation\\swap_hair\\stub_f3099a23.png",
+  "prompt": "a feminine young adult person, Fitzpatrick III (medium olive) skin tone, short cropped buzzcut platinum blonde hair, wearing tailored charcoal blazer, neutral front-facing portrait pose, minimalist studio office with clean backdrop, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "provenance": {
+    "generated_at": "2026-09-11T06:29:41.399600+00:00",
+    "job_id": "f3099a23-f5ab-4b53-85be-179398a138ee",
+    "notebook": "notebooks/inference_kaggle.ipynb",
+    "route": "local-cpu-stub"
+  },
+  "revision": "stub-no-revision",
+  "safety_result": {
+    "flags": [],
+    "passed": true,
+    "reason": "Not checked",
+    "severity": "clean"
+  },
+  "seed": 2000,
+  "spec": {
+    "age_band": "young_adult",
+    "aspect_ratio": "1:1",
+    "attire": "tailored charcoal blazer",
+    "background": "minimalist studio office with clean backdrop",
+    "consent_id": null,
+    "hair": {
+      "color": "platinum blonde",
+      "style": "short cropped buzzcut"
+    },
+    "pose": "neutral front-facing portrait",
+    "presentation": "feminine",
+    "reference_images": [],
+    "seed": 2000,
+    "skin_tone": "Fitzpatrick III (medium olive)"
+  },
+  "synthetic_media_label": true,
+  "validation_report": {
+    "all_passed": false,
+    "failed_images": 1,
+    "fragment_present": true,
+    "image_results": [
+      {
+        "correct_dimensions": true,
+        "errors": [
+          "Image appears blank (pixel std=0.0000 < 1.0)"
+        ],
+        "hash_consistent": true,
+        "non_blank": false,
+        "passed": false,
+        "path": "evidence\\test_matrix\\attribute_isolation\\swap_hair\\stub_f3099a23.png",
+        "readable": true
+      }
+    ],
+    "job_id": "f3099a23-f5ab-4b53-85be-179398a138ee",
+    "passed_images": 0,
+    "total_images": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "all_images": [
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_01_young_adult_feminine\\stub_f28bf58c.png"
+  ],
+  "created_at": "2026-09-11T06:29:40.965295+00:00",
+  "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
+  "job_id": "f28bf58c-e696-4a3b-9f3c-1bc757d403d9",
+  "manifest_version": "1.0",
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_01_young_adult_feminine\\stub_f28bf58c.png",
+  "prompt": "a feminine young adult person, Fitzpatrick I (very fair) skin tone, shoulder-length straight auburn hair, wearing tailored charcoal blazer over silk blouse, three-quarter portrait looking at camera pose, minimalist architectural studio with natural light, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "provenance": {
+    "generated_at": "2026-09-11T06:29:40.784547+00:00",
+    "job_id": "f28bf58c-e696-4a3b-9f3c-1bc757d403d9",
+    "notebook": "notebooks/inference_kaggle.ipynb",
+    "route": "local-cpu-stub"
+  },
+  "revision": "stub-no-revision",
+  "safety_result": {
+    "flags": [],
+    "passed": true,
+    "reason": "Not checked",
+    "severity": "clean"
+  },
+  "seed": 1001,
+  "spec": {
+    "age_band": "young_adult",
+    "aspect_ratio": "1:1",
+    "attire": "tailored charcoal blazer over silk blouse",
+    "background": "minimalist architectural studio with natural light",
+    "consent_id": null,
+    "hair": {
+      "color": "auburn",
+      "style": "shoulder-length straight"
+    },
+    "pose": "three-quarter portrait looking at camera",
+    "presentation": "feminine",
+    "reference_images": [],
+    "seed": 1001,
+    "skin_tone": "Fitzpatrick I (very fair)"
+  },
+  "synthetic_media_label": true,
+  "validation_report": {
+    "all_passed": false,
+    "failed_images": 1,
+    "fragment_present": true,
+    "image_results": [
+      {
+        "correct_dimensions": true,
+        "errors": [
+          "Image appears blank (pixel std=0.0000 < 1.0)"
+        ],
+        "hash_consistent": true,
+        "non_blank": false,
+        "passed": false,
+        "path": "evidence\\test_matrix\\baseline_six\\avatar_01_young_adult_feminine\\stub_f28bf58c.png",
+        "readable": true
+      }
+    ],
+    "job_id": "f28bf58c-e696-4a3b-9f3c-1bc757d403d9",
+    "passed_images": 0,
+    "total_images": 1
+  }
+}

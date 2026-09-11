@@ -1,0 +1,19 @@
+{
+  "consent_id": "CONSENT-2026-EXC-001",
+  "subject_pseudonym": "PERSONA_ALPHA",
+  "consented_at": "2026-09-11T06:29:42.185949Z",
+  "revoked_at": null,
+  "artifact_paths": [
+    "evidence\\test_matrix\\consented_persona\\pose1_corporate_1x1\\stub_66bd5552.png",
+    "evidence\\test_matrix\\consented_persona\\pose1_corporate_3x4\\stub_c3b1f571.png",
+    "evidence\\test_matrix\\consented_persona\\pose2_outdoor_1x1\\stub_d48a0998.png",
+    "evidence\\test_matrix\\consented_persona\\pose2_outdoor_3x4\\stub_a83fedbe.png",
+    "evidence\\test_matrix\\consented_persona\\pose3_studio_1x1\\stub_ea405158.png",
+    "evidence\\test_matrix\\consented_persona\\pose3_studio_3x4\\stub_9ace5376.png",
+    "evidence\\test_matrix\\consented_persona\\pose4_creative_1x1\\stub_1d46583b.png",
+    "evidence\\test_matrix\\consented_persona\\pose4_creative_3x4\\stub_83c4976f.png",
+    "evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_b6a64161.png",
+    "evidence\\test_matrix\\consented_persona\\pose5_academic_3x4\\stub_b86849dd.png"
+  ],
+  "notes": "Authorized for PS02 evaluation 5 poses x 2 aspect ratios"
+}

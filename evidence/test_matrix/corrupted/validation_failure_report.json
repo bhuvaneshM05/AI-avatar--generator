@@ -1,0 +1,21 @@
+{
+  "job_id": "test_corrupt_job",
+  "total_images": 1,
+  "passed_images": 0,
+  "failed_images": 1,
+  "fragment_present": false,
+  "all_passed": false,
+  "image_results": [
+    {
+      "path": "evidence\\test_matrix\\corrupted\\corrupted_output.png",
+      "readable": false,
+      "correct_dimensions": true,
+      "non_blank": true,
+      "hash_consistent": true,
+      "errors": [
+        "Image unreadable: cannot identify image file 'evidence\\\\test_matrix\\\\corrupted\\\\corrupted_output.png'"
+      ],
+      "passed": false
+    }
+  ]
+}

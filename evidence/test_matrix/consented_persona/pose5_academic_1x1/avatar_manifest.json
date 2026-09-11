@@ -1,0 +1,67 @@
+{
+  "all_images": [
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_b6a64161.png"
+  ],
+  "created_at": "2026-09-11T06:29:42.703192+00:00",
+  "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
+  "job_id": "b6a64161-bf9c-4018-becb-0b6a51a24863",
+  "manifest_version": "1.0",
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_b6a64161.png",
+  "prompt": "a feminine adult person, Fitzpatrick IV (warm bronze) skin tone, sleek layered shoulder-length lob espresso brown hair, wearing modern bespoke indigo blazer over silk blouse, hand resting under chin in thought pose, wood-paneled historical university lecture hall, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "provenance": {
+    "generated_at": "2026-09-11T06:29:42.674400+00:00",
+    "job_id": "b6a64161-bf9c-4018-becb-0b6a51a24863",
+    "notebook": "notebooks/inference_kaggle.ipynb",
+    "route": "local-cpu-stub"
+  },
+  "revision": "stub-no-revision",
+  "safety_result": {
+    "flags": [],
+    "passed": true,
+    "reason": "Not checked",
+    "severity": "clean"
+  },
+  "seed": 5004,
+  "spec": {
+    "age_band": "adult",
+    "aspect_ratio": "1:1",
+    "attire": "modern bespoke indigo blazer over silk blouse",
+    "background": "wood-paneled historical university lecture hall",
+    "consent_id": "CONSENT-2026-EXC-001",
+    "hair": {
+      "color": "espresso brown",
+      "style": "sleek layered shoulder-length lob"
+    },
+    "pose": "hand resting under chin in thought",
+    "presentation": "feminine",
+    "reference_images": [
+      "evidence\\test_matrix\\consented_persona\\ref.jpg"
+    ],
+    "seed": 5004,
+    "skin_tone": "Fitzpatrick IV (warm bronze)"
+  },
+  "synthetic_media_label": true,
+  "validation_report": {
+    "all_passed": false,
+    "failed_images": 1,
+    "fragment_present": true,
+    "image_results": [
+      {
+        "correct_dimensions": true,
+        "errors": [
+          "Image appears blank (pixel std=0.0000 < 1.0)"
+        ],
+        "hash_consistent": true,
+        "non_blank": false,
+        "passed": false,
+        "path": "evidence\\test_matrix\\consented_persona\\pose5_academic_1x1\\stub_b6a64161.png",
+        "readable": true
+      }
+    ],
+    "job_id": "b6a64161-bf9c-4018-becb-0b6a51a24863",
+    "passed_images": 0,
+    "total_images": 1
+  }
+}

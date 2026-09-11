@@ -1,0 +1,11 @@
+{
+  "base_spec": 2000,
+  "cases_tested": [
+    "base",
+    "swap_attire",
+    "swap_hair",
+    "swap_background",
+    "swap_age_band"
+  ],
+  "isolation_verified": true
+}

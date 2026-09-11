@@ -1,0 +1,50 @@
+{
+  "job_id": "fafe030d-1ecd-4028-a839-a3c0611ab51c",
+  "created_at": "2026-09-11T06:29:41.158794+00:00",
+  "spec": {
+    "age_band": "teen",
+    "presentation": "masculine",
+    "skin_tone": "Fitzpatrick III (medium beige)",
+    "hair": {
+      "style": "curly undercut",
+      "color": "dark chestnut"
+    },
+    "attire": "minimalist organic cotton hoodie in olive tone",
+    "background": "contemporary co-working campus courtyard",
+    "pose": "casual candid three-quarter angle",
+    "aspect_ratio": "9:16",
+    "seed": 1005,
+    "reference_images": [],
+    "consent_id": null
+  },
+  "model": {
+    "name": "stable-diffusion-xl-base-1.0",
+    "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "type": "sdxl",
+    "vae_repo": "madebyollin/sdxl-vae-fp16-fix",
+    "vae_revision": "4df413ca49b2d5c82a85cfde3c7600551bbfc5a7",
+    "recommended_steps": 20,
+    "recommended_guidance": 7.5,
+    "max_resolution": 1024,
+    "license": "CreativeML Open RAIL++-M",
+    "commercial_use": false,
+    "notes": "Primary model. Requires ~6.5GB VRAM. Fits Kaggle T4 (16GB)."
+  },
+  "prompt": "a masculine teen person, Fitzpatrick III (medium beige) skin tone, curly undercut dark chestnut hair, wearing minimalist organic cotton hoodie in olive tone, casual candid three-quarter angle pose, contemporary co-working campus courtyard, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "seed": 1005,
+  "inference_params": {
+    "steps": 20,
+    "guidance_scale": 7.5,
+    "output_format": "png",
+    "output_width": 1024,
+    "aspect_ratio": "9:16"
+  },
+  "provenance_route": "kaggle",
+  "safety_config": {
+    "on_ambiguous": "flag",
+    "on_blocked": "block",
+    "log_all_results": true
+  }
+}

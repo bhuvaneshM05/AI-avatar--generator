@@ -1,0 +1,14 @@
+{
+  "images": [
+    "evidence\\test_matrix\\baseline_six\\avatar_03_senior_androgynous\\stub_9811a521.png"
+  ],
+  "seed": 1003,
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "revision": "stub-no-revision",
+  "provenance_route": "local-cpu-stub",
+  "generated_at": "2026-09-11T06:29:41.049346+00:00",
+  "image_hashes": {
+    "stub_9811a521.png": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2"
+  },
+  "WARNING": "STUB OUTPUT -- NOT A FINAL GRADED AVATAR"
+}

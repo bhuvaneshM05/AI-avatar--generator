@@ -1,0 +1,50 @@
+{
+  "job_id": "1566332c-2c9f-4384-9a50-85e93eaf88bf",
+  "created_at": "2026-09-11T06:29:41.097138+00:00",
+  "spec": {
+    "age_band": "adult",
+    "presentation": "feminine",
+    "skin_tone": "Fitzpatrick VI (deep brown)",
+    "hair": {
+      "style": "intricate box braids tied in high crown",
+      "color": "dark espresso"
+    },
+    "attire": "geometric pattern contemporary kaftan in emerald and gold",
+    "background": "modern art gallery with clean white walls and ambient gallery lights",
+    "pose": "poised front-facing headshot",
+    "aspect_ratio": "1:1",
+    "seed": 1004,
+    "reference_images": [],
+    "consent_id": null
+  },
+  "model": {
+    "name": "stable-diffusion-xl-base-1.0",
+    "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "type": "sdxl",
+    "vae_repo": "madebyollin/sdxl-vae-fp16-fix",
+    "vae_revision": "4df413ca49b2d5c82a85cfde3c7600551bbfc5a7",
+    "recommended_steps": 20,
+    "recommended_guidance": 7.5,
+    "max_resolution": 1024,
+    "license": "CreativeML Open RAIL++-M",
+    "commercial_use": false,
+    "notes": "Primary model. Requires ~6.5GB VRAM. Fits Kaggle T4 (16GB)."
+  },
+  "prompt": "a feminine adult person, Fitzpatrick VI (deep brown) skin tone, intricate box braids tied in high crown dark espresso hair, wearing geometric pattern contemporary kaftan in emerald and gold, poised front-facing headshot pose, modern art gallery with clean white walls and ambient gallery lights, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "seed": 1004,
+  "inference_params": {
+    "steps": 20,
+    "guidance_scale": 7.5,
+    "output_format": "png",
+    "output_width": 1024,
+    "aspect_ratio": "1:1"
+  },
+  "provenance_route": "kaggle",
+  "safety_config": {
+    "on_ambiguous": "flag",
+    "on_blocked": "block",
+    "log_all_results": true
+  }
+}

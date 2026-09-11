@@ -1,0 +1,50 @@
+{
+  "job_id": "f28bf58c-e696-4a3b-9f3c-1bc757d403d9",
+  "created_at": "2026-09-11T06:29:40.760110+00:00",
+  "spec": {
+    "age_band": "young_adult",
+    "presentation": "feminine",
+    "skin_tone": "Fitzpatrick I (very fair)",
+    "hair": {
+      "style": "shoulder-length straight",
+      "color": "auburn"
+    },
+    "attire": "tailored charcoal blazer over silk blouse",
+    "background": "minimalist architectural studio with natural light",
+    "pose": "three-quarter portrait looking at camera",
+    "aspect_ratio": "1:1",
+    "seed": 1001,
+    "reference_images": [],
+    "consent_id": null
+  },
+  "model": {
+    "name": "stable-diffusion-xl-base-1.0",
+    "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "type": "sdxl",
+    "vae_repo": "madebyollin/sdxl-vae-fp16-fix",
+    "vae_revision": "4df413ca49b2d5c82a85cfde3c7600551bbfc5a7",
+    "recommended_steps": 20,
+    "recommended_guidance": 7.5,
+    "max_resolution": 1024,
+    "license": "CreativeML Open RAIL++-M",
+    "commercial_use": false,
+    "notes": "Primary model. Requires ~6.5GB VRAM. Fits Kaggle T4 (16GB)."
+  },
+  "prompt": "a feminine young adult person, Fitzpatrick I (very fair) skin tone, shoulder-length straight auburn hair, wearing tailored charcoal blazer over silk blouse, three-quarter portrait looking at camera pose, minimalist architectural studio with natural light, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "seed": 1001,
+  "inference_params": {
+    "steps": 20,
+    "guidance_scale": 7.5,
+    "output_format": "png",
+    "output_width": 1024,
+    "aspect_ratio": "1:1"
+  },
+  "provenance_route": "kaggle",
+  "safety_config": {
+    "on_ambiguous": "flag",
+    "on_blocked": "block",
+    "log_all_results": true
+  }
+}

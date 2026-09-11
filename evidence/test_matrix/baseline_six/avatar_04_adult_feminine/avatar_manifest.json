@@ -1,0 +1,65 @@
+{
+  "all_images": [
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_04_adult_feminine\\stub_1566332c.png"
+  ],
+  "created_at": "2026-09-11T06:29:41.129303+00:00",
+  "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
+  "job_id": "1566332c-2c9f-4384-9a50-85e93eaf88bf",
+  "manifest_version": "1.0",
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_04_adult_feminine\\stub_1566332c.png",
+  "prompt": "a feminine adult person, Fitzpatrick VI (deep brown) skin tone, intricate box braids tied in high crown dark espresso hair, wearing geometric pattern contemporary kaftan in emerald and gold, poised front-facing headshot pose, modern art gallery with clean white walls and ambient gallery lights, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "provenance": {
+    "generated_at": "2026-09-11T06:29:41.099137+00:00",
+    "job_id": "1566332c-2c9f-4384-9a50-85e93eaf88bf",
+    "notebook": "notebooks/inference_kaggle.ipynb",
+    "route": "local-cpu-stub"
+  },
+  "revision": "stub-no-revision",
+  "safety_result": {
+    "flags": [],
+    "passed": true,
+    "reason": "Not checked",
+    "severity": "clean"
+  },
+  "seed": 1004,
+  "spec": {
+    "age_band": "adult",
+    "aspect_ratio": "1:1",
+    "attire": "geometric pattern contemporary kaftan in emerald and gold",
+    "background": "modern art gallery with clean white walls and ambient gallery lights",
+    "consent_id": null,
+    "hair": {
+      "color": "dark espresso",
+      "style": "intricate box braids tied in high crown"
+    },
+    "pose": "poised front-facing headshot",
+    "presentation": "feminine",
+    "reference_images": [],
+    "seed": 1004,
+    "skin_tone": "Fitzpatrick VI (deep brown)"
+  },
+  "synthetic_media_label": true,
+  "validation_report": {
+    "all_passed": false,
+    "failed_images": 1,
+    "fragment_present": true,
+    "image_results": [
+      {
+        "correct_dimensions": true,
+        "errors": [
+          "Image appears blank (pixel std=0.0000 < 1.0)"
+        ],
+        "hash_consistent": true,
+        "non_blank": false,
+        "passed": false,
+        "path": "evidence\\test_matrix\\baseline_six\\avatar_04_adult_feminine\\stub_1566332c.png",
+        "readable": true
+      }
+    ],
+    "job_id": "1566332c-2c9f-4384-9a50-85e93eaf88bf",
+    "passed_images": 0,
+    "total_images": 1
+  }
+}

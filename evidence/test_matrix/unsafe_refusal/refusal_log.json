@@ -1,0 +1,13 @@
+{
+  "action": "refusal",
+  "passed": false,
+  "severity": "block",
+  "reason": "Explicit sexual content is not permitted; Explicit sexual content is not permitted; Explicit sexual content is not permitted; Explicit sexual content is not permitted",
+  "flags": [
+    "explicit_sexual",
+    "attire:explicit_sexual",
+    "background:explicit_sexual",
+    "pose:explicit_sexual"
+  ],
+  "checked_at": "2026-09-11 06:29:42.149130+00:00"
+}

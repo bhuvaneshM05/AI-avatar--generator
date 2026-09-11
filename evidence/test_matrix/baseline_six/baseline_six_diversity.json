@@ -1,0 +1,46 @@
+{
+  "coverage_per_dimension": {
+    "age_band": [
+      "adult",
+      "senior",
+      "teen",
+      "young_adult"
+    ],
+    "presentation": [
+      "androgynous",
+      "feminine",
+      "masculine",
+      "unspecified"
+    ],
+    "skin_tone_category": [
+      "brown",
+      "very_light"
+    ]
+  },
+  "required_per_dimension": {
+    "age_band": [
+      "adult",
+      "child",
+      "senior",
+      "teen",
+      "young_adult"
+    ],
+    "presentation": [
+      "androgynous",
+      "feminine",
+      "masculine",
+      "unspecified"
+    ],
+    "skin_tone_category": [
+      "brown",
+      "dark",
+      "light",
+      "medium",
+      "olive",
+      "very_light"
+    ]
+  },
+  "coverage_score": 0.6667,
+  "total_avatars": 6,
+  "summary": "10/15 attribute slots covered across 6 avatars (score=66.67%)"
+}

@@ -1,0 +1,66 @@
+{
+  "all_images": [
+    "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_05_teen_masculine\\stub_fafe030d.png"
+  ],
+  "created_at": "2026-09-11T06:29:41.186892+00:00",
+  "image_hash": "5706ab940a05777f6990812fea9abc1bf11c0ace30112c27e783d8201944f8d2",
+  "job_id": "fafe030d-1ecd-4028-a839-a3c0611ab51c",
+  "manifest_version": "1.0",
+  "model_id": "stable-diffusion-xl-base-1.0",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "output_path": "E:\\project\\ai avatar\\evidence\\test_matrix\\baseline_six\\avatar_05_teen_masculine\\stub_fafe030d.png",
+  "prompt": "a masculine teen person, Fitzpatrick III (medium beige) skin tone, curly undercut dark chestnut hair, wearing minimalist organic cotton hoodie in olive tone, casual candid three-quarter angle pose, contemporary co-working campus courtyard, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "provenance": {
+    "generated_at": "2026-09-11T06:29:41.161784+00:00",
+    "job_id": "fafe030d-1ecd-4028-a839-a3c0611ab51c",
+    "notebook": "notebooks/inference_kaggle.ipynb",
+    "route": "local-cpu-stub"
+  },
+  "revision": "stub-no-revision",
+  "safety_result": {
+    "flags": [],
+    "passed": true,
+    "reason": "Not checked",
+    "severity": "clean"
+  },
+  "seed": 1005,
+  "spec": {
+    "age_band": "teen",
+    "aspect_ratio": "9:16",
+    "attire": "minimalist organic cotton hoodie in olive tone",
+    "background": "contemporary co-working campus courtyard",
+    "consent_id": null,
+    "hair": {
+      "color": "dark chestnut",
+      "style": "curly undercut"
+    },
+    "pose": "casual candid three-quarter angle",
+    "presentation": "masculine",
+    "reference_images": [],
+    "seed": 1005,
+    "skin_tone": "Fitzpatrick III (medium beige)"
+  },
+  "synthetic_media_label": true,
+  "validation_report": {
+    "all_passed": false,
+    "failed_images": 1,
+    "fragment_present": true,
+    "image_results": [
+      {
+        "correct_dimensions": false,
+        "errors": [
+          "Aspect ratio mismatch: got 256x256 (ratio=1.000), expected ~9:16 (ratio=0.562)",
+          "Image appears blank (pixel std=0.0000 < 1.0)"
+        ],
+        "hash_consistent": true,
+        "non_blank": false,
+        "passed": false,
+        "path": "evidence\\test_matrix\\baseline_six\\avatar_05_teen_masculine\\stub_fafe030d.png",
+        "readable": true
+      }
+    ],
+    "job_id": "fafe030d-1ecd-4028-a839-a3c0611ab51c",
+    "passed_images": 0,
+    "total_images": 1
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "status": "refusal_verified",
+  "error_type": "ValidationError",
+  "enforcement": "Schema-level model_validator blocking reference_images without consent_id"
+}

@@ -1,0 +1,50 @@
+{
+  "job_id": "4c797c86-37f8-4adb-96c1-191fa68bf791",
+  "created_at": "2026-09-11T06:29:41.218533+00:00",
+  "spec": {
+    "age_band": "adult",
+    "presentation": "unspecified",
+    "skin_tone": "Fitzpatrick V (warm bronze)",
+    "hair": {
+      "style": "tapered afro",
+      "color": "jet black"
+    },
+    "attire": "smart casual denim jacket over crisp cream crewneck",
+    "background": "coastal dusk horizon with soft pastel sky",
+    "pose": "neutral front-facing",
+    "aspect_ratio": "1:1",
+    "seed": 1006,
+    "reference_images": [],
+    "consent_id": null
+  },
+  "model": {
+    "name": "stable-diffusion-xl-base-1.0",
+    "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "type": "sdxl",
+    "vae_repo": "madebyollin/sdxl-vae-fp16-fix",
+    "vae_revision": "4df413ca49b2d5c82a85cfde3c7600551bbfc5a7",
+    "recommended_steps": 20,
+    "recommended_guidance": 7.5,
+    "max_resolution": 1024,
+    "license": "CreativeML Open RAIL++-M",
+    "commercial_use": false,
+    "notes": "Primary model. Requires ~6.5GB VRAM. Fits Kaggle T4 (16GB)."
+  },
+  "prompt": "a adult person, Fitzpatrick V (warm bronze) skin tone, tapered afro jet black hair, wearing smart casual denim jacket over crisp cream crewneck, neutral front-facing pose, coastal dusk horizon with soft pastel sky, professional portrait photography, sharp focus, high resolution, 8k, photorealistic, studio lighting",
+  "negative_prompt": "nsfw, explicit, nudity, violence, gore, ugly, deformed, blurry, low quality, watermark, signature, text, logo, duplicate, mutation, bad anatomy, extra limbs, cartoon, anime, illustration, painting",
+  "seed": 1006,
+  "inference_params": {
+    "steps": 20,
+    "guidance_scale": 7.5,
+    "output_format": "png",
+    "output_width": 1024,
+    "aspect_ratio": "1:1"
+  },
+  "provenance_route": "kaggle",
+  "safety_config": {
+    "on_ambiguous": "flag",
+    "on_blocked": "block",
+    "log_all_results": true
+  }
+}
