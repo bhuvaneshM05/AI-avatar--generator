@@ -1,0 +1,48 @@
+﻿# Model registry -- all models pinned to exact HF revision hashes.
+# This file is the SINGLE SOURCE OF TRUTH for model versions.
+# Update ONLY with an explicit version bump commit + full test run.
+# Never use 'latest' or 'main' -- always pin to a commit SHA.
+
+models:
+  primary:
+    name: "stable-diffusion-xl-base-1.0"
+    repo: "stabilityai/stable-diffusion-xl-base-1.0"
+    # Commit SHA pinned 2024-01-15; update via: huggingface_hub.model_info(repo).sha
+    revision: "462165984030d82259a11f4367a4eed129e94a7b"
+    type: "sdxl"
+    # FP16-fixed VAE avoids NaN in fp16 mode; mandatory for stable SDXL output
+    vae_repo: "madebyollin/sdxl-vae-fp16-fix"
+    vae_revision: "4df413ca49b2d5c82a85cfde3c7600551bbfc5a7"
+    recommended_steps: 20
+    recommended_guidance: 7.5
+    max_resolution: 1024
+    license: "CreativeML Open RAIL++-M"
+    commercial_use: false
+    notes: "Primary model. Requires ~6.5GB VRAM. Fits Kaggle T4 (16GB)."
+
+  fallback:
+    name: "stable-diffusion-v1-5"
+    repo: "runwayml/stable-diffusion-v1-5"
+    revision: "1d0c4ebf6ff58a5caecab40fa1406526bca4b5b9"
+    type: "sd15"
+    recommended_steps: 30
+    recommended_guidance: 7.5
+    max_resolution: 512
+    license: "CreativeML Open RAIL-M"
+    commercial_use: false
+    notes: "Fallback for low-VRAM environments. Lower quality than SDXL."
+
+  identity_embedding:
+    name: "buffalo_l"
+    provider: "insightface"
+    license: "MIT"
+    commercial_use: true
+    note: "Used ONLY for identity consistency SCORING. Never for image generation."
+
+  clip_scoring:
+    name: "ViT-B-32"
+    pretrained: "laion2b_s34b_b79k"
+    repo: "open-clip-torch"
+    license: "MIT"
+    commercial_use: true
+    note: "Used for prompt-adherence CLIP similarity scoring only."

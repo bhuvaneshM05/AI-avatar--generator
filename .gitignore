@@ -1,0 +1,67 @@
+﻿# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Job bundles (generated at runtime; not committed)
+jobs/
+
+# Evidence images (generated outputs; tracked via manifest, not git)
+evidence/attempts/*.png
+evidence/attempts/*.jpg
+evidence/attempts/*.jpeg
+evidence/attempts/*.webp
+
+# Secrets and credentials
+*.pem
+*.key
+secrets.yaml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# Model weights (large binary files; fetched at runtime from HF hub)
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+models/
+weights/
+
+# Kaggle API credentials (never commit)
+kaggle.json

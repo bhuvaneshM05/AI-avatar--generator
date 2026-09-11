@@ -1,0 +1,21 @@
+﻿# Default job configuration.
+# These values are used when a spec field is not explicitly overridden.
+# All fields can be overridden per-spec via the YAML spec file.
+
+defaults:
+  aspect_ratio: "1:1"
+  model: "primary"        # references a key in model_registry.yaml
+  inference_steps: 20     # SDXL converges well at 20 steps; increase for quality
+  guidance_scale: 7.5     # standard CFG scale; higher = more prompt-adherent but less diverse
+  output_format: "png"    # lossless; required for pixel-hash provenance checks
+  output_width: 1024      # SDXL native 1:1 resolution; height derived from aspect_ratio
+
+provenance:
+  # Which free accelerator to target. Options: kaggle | hf-zerogpu | lightning | local-cpu-stub
+  # Change to local-cpu-stub for unit/integration tests (no GPU required).
+  accelerator: "kaggle"
+
+safety:
+  on_ambiguous: "flag"           # flag = allow but log warning (ambiguous input)
+  on_blocked: "block"            # always refuse blocked content
+  log_all_results: true          # write SafetyResult to every manifest, even clean ones

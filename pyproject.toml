@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avatarpipe"
+version = "0.1.0"
+description = "Open-source AI human-avatar generation pipeline (PS02)"
+requires-python = ">=3.10"
+
+[project.scripts]
+avatarpipe = "avatarpipe.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
